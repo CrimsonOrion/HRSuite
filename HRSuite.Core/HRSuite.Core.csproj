@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>annotations</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.8.7" />
+    <PackageReference Include="GemBox.Document" Version="33.0.1446" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Library.NET.DataAccess">
+      <HintPath>..\..\Library.NET\Library.NET.DataAccess\bin\Release\net6.0\Library.NET.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Events">
+      <HintPath>..\..\Library.NET\Library.NET.Events\bin\Release\net6.0\Library.NET.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Helpers">
+      <HintPath>..\..\Library.NET\Library.NET.Helpers\bin\Release\net6.0\Library.NET.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Logging">
+      <HintPath>..\..\Library.NET\Library.NET.DataAccess\bin\Release\net6.0\Library.NET.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Mailer">
+      <HintPath>..\..\Library.NET\Library.NET.Mailer\bin\Release\net6.0\Library.NET.Mailer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
