@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>annotations</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>HRSuite.App</StartupObject>
+    <AssemblyName>HR Suite</AssemblyName>
+    <DebugType>embedded</DebugType>
+    <ErrorReport>none</ErrorReport>
+    <Version>2022.3.16.1</Version>
+    <Authors>James Lynch</Authors>
+    <Company>Crimson Orion Software</Company>
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/CrimsonOrion/HRSuite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CrimsonOrion/HRSuite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\About.Module\About.Module.csproj" />
+    <ProjectReference Include="..\Codes.Module\Codes.Module.csproj" />
+    <ProjectReference Include="..\Employee.Module\Employee.Module.csproj" />
+    <ProjectReference Include="..\HRSuite.Core\HRSuite.Core.csproj" />
+    <ProjectReference Include="..\JobCode.Module\JobCode.Module.csproj" />
+    <ProjectReference Include="..\Reports.Module\Reports.Module.csproj" />
+    <ProjectReference Include="..\Requisition.Module\Requisition.Module.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Library.NET.DataAccess">
+      <HintPath>..\..\Library.NET\Library.NET.DataAccess\bin\Release\net6.0\Library.NET.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Events">
+      <HintPath>..\..\Library.NET\Library.NET.Events\bin\Release\net6.0\Library.NET.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Logging">
+      <HintPath>..\..\Library.NET\Library.NET.DataAccess\bin\Release\net6.0\Library.NET.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Library.NET.Mailer">
+      <HintPath>..\..\Library.NET\Library.NET.Mailer\bin\Release\net6.0\Library.NET.Mailer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
