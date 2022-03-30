@@ -1,6 +1,8 @@
 using Prism.Ioc;
 using Prism.Modularity;
 
+using Reports.Module.Views;
+
 namespace Reports.Module;
 public class ReportsModule : IModule
 {
