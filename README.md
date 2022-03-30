@@ -31,4 +31,4 @@ Run the scripts found in the <a href="https://github.com/CrimsonOrion/CCEMC-HR-S
 From there, clone this repo and build! You're on your way!
 
 ## Created using
-.Net 6, Prism 8, MahApps, MSSQL
+.Net 6, Prism 8, MahApps, MSSQL, <a href="https://github.com/CrimsonOrion/Library.NET">Library.NET</a>
