@@ -15,19 +15,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{94CDC6E6-5867-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRSuite.Core", "HRSuite.Core\HRSuite.Core.csproj", "{ACB2BF30-5900-488F-ABA7-A2110848F2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "About.Module", "About.Module\About.Module.csproj", "{0B552280-82BF-49AC-B049-5BD38C337050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "About.Module", "About.Module\About.Module.csproj", "{0B552280-82BF-49AC-B049-5BD38C337050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codes.Module", "Codes.Module\Codes.Module.csproj", "{6A49452F-8A85-487D-89EF-EDB291B399D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codes.Module", "Codes.Module\Codes.Module.csproj", "{6A49452F-8A85-487D-89EF-EDB291B399D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Module", "Employee.Module\Employee.Module.csproj", "{C564660A-719F-484F-9E51-27B5A50A67F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Module", "Employee.Module\Employee.Module.csproj", "{C564660A-719F-484F-9E51-27B5A50A67F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCode.Module", "JobCode.Module\JobCode.Module.csproj", "{1ABA3757-39E1-4ED3-B3E5-B60ACA0E2A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobCode.Module", "JobCode.Module\JobCode.Module.csproj", "{1ABA3757-39E1-4ED3-B3E5-B60ACA0E2A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports.Module", "Reports.Module\Reports.Module.csproj", "{177F3568-7928-4252-A94C-603BE7E66B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reports.Module", "Reports.Module\Reports.Module.csproj", "{177F3568-7928-4252-A94C-603BE7E66B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Requisition.Module", "Requisition.Module\Requisition.Module.csproj", "{93B3F4AC-2429-467C-A4CF-BB9B2AFC4D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Requisition.Module", "Requisition.Module\Requisition.Module.csproj", "{93B3F4AC-2429-467C-A4CF-BB9B2AFC4D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSuite", "HRSuite\HRSuite.csproj", "{9838E0C3-19C5-454B-918E-5DDCBF9C08DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRSuite", "HRSuite\HRSuite.csproj", "{9838E0C3-19C5-454B-918E-5DDCBF9C08DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{CAFB61D0-43DA-41A1-B327-ED9D84E71D75}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\HR Docs\Schema Create Query.sql = ..\..\HR Docs\Schema Create Query.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +92,7 @@ Global
 		{177F3568-7928-4252-A94C-603BE7E66B69} = {7C93C06A-5D06-42CF-853E-2DA01B45D7C1}
 		{93B3F4AC-2429-467C-A4CF-BB9B2AFC4D79} = {7C93C06A-5D06-42CF-853E-2DA01B45D7C1}
 		{9838E0C3-19C5-454B-918E-5DDCBF9C08DC} = {94CDC6E6-5867-4BD8-B7EE-67F1874F707D}
+		{CAFB61D0-43DA-41A1-B327-ED9D84E71D75} = {86A3C4B8-EBA5-46DC-9975-2F4917B41288}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6F7678B-CFB3-4FAA-956C-4304F9DA67B8}
