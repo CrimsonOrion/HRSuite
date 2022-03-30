@@ -26,9 +26,9 @@ Edit Employees
 </p>
 
 ## Installation
+Clone this repo and build.
 Run the SQL script found in the Script folder.
-
-From there, clone this repo and build! You're on your way!
+You're on your way!
 
 ## Created using
 .Net 6, Prism 8, MahApps, MSSQL, <a href="https://github.com/CrimsonOrion/Library.NET">Library.NET</a>
