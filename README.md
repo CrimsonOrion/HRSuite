@@ -26,7 +26,7 @@ Edit Employees
 </p>
 
 ## Installation
-Run the scripts found in the <a href="https://github.com/CrimsonOrion/CCEMC-HR-Suite/tree/main/CcemcHrSuite.DB/dbo">DBO</a> folder.
+Run the SQL script found in the Script folder.
 
 From there, clone this repo and build! You're on your way!
 
