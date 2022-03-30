@@ -34,7 +34,7 @@ public class AboutViewModel : BindableBase, INavigationAware
 
     #region Constructor
 
-    public AboutViewModel() => PatchNotes = File.Exists(_dfsPath) ? File.ReadAllText(_dfsPath) : File.ReadAllText(_hardPath);
+    public AboutViewModel() => PatchNotes = File.Exists(_dfsPath) ? File.ReadAllText(_dfsPath) : File.Exists(_hardPath) ? File.ReadAllText(_hardPath) : "";
 
     #endregion
 
